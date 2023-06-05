@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegacao {
+    border: chartreuse 2px solid;
+}
+
+#titulo {
+    color: chocolate;
+}
+
+.texto {
+    color: green;
+}
