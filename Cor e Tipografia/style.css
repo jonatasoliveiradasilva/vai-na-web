@@ -1,0 +1,30 @@
+/*
+  seletor {
+    propriedade: valor;
+  }
+*/
+
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rgb {
+    border: darkorange solid 2px;
+}
+
+.red {
+    color: rgb(255, 0, 0);
+}
+
+.green {
+    color: rgb(0, 255, 0);
+}
+
+.blue {
+    color: rgb(0, 0, 255);
+}
+
+.titulo {
+    color: rgb(80, 100, 18);
+}
