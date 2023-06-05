@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.primeira-sessao-em {
+    background-color: yellowgreen;
+    height: 400px;
+    width: 400px;
+    font-size: 10px;
+}
+
+.primeira-sessao-em div {
+    background-color: brown;
+    height: 250px;
+    width: 250px;
+    font-size: 2em;
+}
+
+.segunda-sessao-rem {
+    background-color: rebeccapurple;
+    height: 400px;
+    width: 400px;
+    font-size: 1rem;
+}
+
+.terceira-sessao-porcentagem {
+    background-color: rgb(245, 13, 202);
+    height: 400px;
+    width: 400px;
+}
+
+.terceira-sessao-porcentagem div {
+    background-color: tomato;
+    height: 90%;
+    width: 100;
+}
+
+.quarta-sessao-vh-vw {
+    background-color: red;
+    height: 400px;
+    width: 400px;
+}
+
+.quarta-sessao-vh-vw div {
+    background-color: blue;
+    height: 50vh;
+    width: 50vw;
+}
