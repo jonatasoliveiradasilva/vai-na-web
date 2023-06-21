@@ -12,13 +12,58 @@ img {
     width: 50%;
 }
 
+section {
+    margin: 10px;
+}
+
 .container {
-    border: yellow solid 3px;
-    display: flex;
+    display: flex; /* ativa o flexbox */
+    border: purple solid 5px;
+    justify-content: center; /* alinha no meio do eixo principal (eixo x / horizontal) */
+}
+
+.container1 {
+    display: flex; /* ativa o flexbox */
+    border: purple solid 5px;
     height: 50px;
+    justify-content: flex-end; /* alinha no final do eixo principal (eixo x / horizontal) */
+}
+
+.container2 {
+    display: flex; /* ativa o flexbox */
+    border: purple solid 5px;
+    height: 50px;
+    justify-content: flex-start; /* alinha no início do eixo principal (padrão) (eixo x / horizontal) */
+}
+
+/* espaçamento dos itens */
+
+.container3 {
+    display: flex; /* ativa o flexbox */
+    border: purple solid 5px;
+    height: 50px;
+    justify-content: space-around; /* space-around; espaço ao redor dos elementos */
+}
+
+.container4 {
+    display: flex; /* ativa o flexbox */
+    border: purple solid 5px;
+    height: 50px;
+    justify-content: space-between; /* space-between; espaço entre os elementos */
+}
+
+.container5 {
+    border: purple solid 5px;
+    height: 50vh;
+    display: flex; /* ativa o flexbox */
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .item {
     border: 2px solid;
+    background-color: orange;
+    width: 70px;
 }
