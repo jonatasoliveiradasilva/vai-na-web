@@ -1,0 +1,147 @@
+/* reset da página */
+
+* {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* cabeçalho */
+
+header {
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4b93bf;
+    display: flex;
+    height: 150px;
+    width: 1360px;
+    font-size: 20px;
+}
+
+.logo-titulo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-titulo img {
+    width: 146px;
+}
+
+.logo-titulo h2 {
+    color: #ffffff;
+    width: 125px;
+}
+
+/* menu */
+
+ul {
+    color: #ffffff;
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin-right: 50px;
+}
+
+li {
+    font-size: 28px;
+}
+
+/* seções */
+
+/* primeira-secao */
+
+.primeira-secao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e4eef1;
+    width: 1360px;
+}
+
+.primeira-secao p {
+    color: #0f468c;
+    font-size: 20px;
+    width: 587px;
+    margin: 35px 50px 35px 50px;
+}
+
+.primeira-secao .inverno {
+    margin-right: 75px;
+    width: 416px;
+}
+
+/* segunda-secao */
+
+.segunda-secao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4b93bf;
+    width: 1360px;
+}
+
+.segunda-secao .gramado {
+    margin-left: 100px;
+    width: 343px;
+}
+
+.segunda-secao p {
+    color: #e4eef1;
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    margin-right: 50px;
+    width: 585px;
+}
+
+/* terceira-secao */
+
+.terceira-secao {
+    background-color: #e4eef1;
+    width: 1360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.galeria-inverno1,
+.galeria-inverno2,
+.galeria-inverno3,
+.galeria-inverno4 {
+    height: 300px;
+    width: 300px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: #4b93bf;
+    height: 150px;
+    width: 1360px;
+    justify-content: space-between;
+}
+
+footer .redes-sociais {
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociais {
+    margin-left: 35px;
+    height: 100px;
+    width: 100px;
+}
+
+.redes-sociais a,
+.linkedin,
+.instagram,
+.github {
+    width: 100px;
+}
+
+footer .pinguim {
+    margin-right: 50px;
+}
