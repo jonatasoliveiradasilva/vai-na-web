@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    align-items: center;
+    background-image: url("../src/assets/capa.png");
+    background-position: center;
+    background-size: 100%;
+    color: #FFFFFF;
+    display: flex;
+    height: 25vh;
+    justify-content: center;
+}
+
+.pizzas {
+    align-items: center;
+    background-color: #FFA200;
+    display: flex;
+    height: 70vh;
+}
+
+.pizza {
+    align-items: center;
+    background-color: #FEF6F4;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 45vh;
+    width: 25vw;
+}
+
+p {
+    color: #616161;
+    text-align: center;
+    font-size: 17px;
+    width: 20vw;
+}
+
+.la-menta,
+.la-cuma,
+.la-bana,
+.la-toca {
+    bottom: 30px;
+    position: relative;
+}
+
+button {
+    background-color: #FFA200;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.btn {
+    position: relative;
+    top: 20px;
+}
